@@ -2,14 +2,16 @@ body {
     font-family: monospace;
 }
 
-input {
+input, button {
     margin: 1rem;
+    padding: .2rem;
 }
+
 #info {
-    width: 40%;
+    width: 50%;
     display: grid;
     gap: 1rem;
-    grid-template-columns:  auto auto;
+    grid-template-columns:  repeat(4, 1fr);
     justify-content: start;
     background-color: #eee;
 }
