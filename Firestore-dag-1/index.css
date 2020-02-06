@@ -1,0 +1,24 @@
+body {
+    font-family: monospace;
+}
+
+input {
+    margin: 1rem;
+}
+#info {
+    width: 40%;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns:  auto auto;
+    justify-content: start;
+    background-color: #eee;
+}
+
+#info div {
+    padding: 1rem;
+}
+
+.heading {
+    text-transform: uppercase;
+    font-size: 1rem;
+}
