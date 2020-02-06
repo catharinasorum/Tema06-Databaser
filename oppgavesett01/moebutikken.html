@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="no">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Tema 6 | Oppgavesett 1 - Møbelbutikken</title>
+        <link rel="stylesheet" href="./index.css">
+        <link rel="stylesheet" href="./moestyling.css">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:300|Roboto:400,900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <h1>Møbelbutikken</h1>
+
+        <div id="heading">
+            <p>Navn på møbel</p>
+            <p>Type</p>
+            <p>Pris</p>
+            <p>Rabatt %</p>
+        </div>
+        <section id="moebelliste"></section>
+
+
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.8.0/firebase-firestore.js"></script>
+        
+        <script>
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+            apiKey: "AIzaSyChPiqiGebBUsFpofiUGW2Q9HyJst_jxJY",
+            authDomain: "firestore-2e7e1.firebaseapp.com",
+            databaseURL: "https://firestore-2e7e1.firebaseio.com",
+            projectId: "firestore-2e7e1",
+            storageBucket: "firestore-2e7e1.appspot.com",
+            messagingSenderId: "384392672001",
+            appId: "1:384392672001:web:8fb2e431d12c5e0329e100"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        </script>
+
+        <script src="./index.js"></script>
+        <script src="./moebutikken.js"></script>
+    </body>
+</html>

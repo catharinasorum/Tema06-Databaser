@@ -1,0 +1,8 @@
+#moebelliste {
+    height: 65vh;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#heading {
+    grid-template-columns: repeat(4, 1fr);
+}
