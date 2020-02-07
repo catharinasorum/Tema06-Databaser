@@ -36,5 +36,7 @@ messageForm.onsubmit = (evt) => {
         text: messageText.value,
         time: firebase.firestore.FieldValue.serverTimestamp()
     });
+
+    messageForm.reset();
 };
 

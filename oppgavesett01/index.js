@@ -7,8 +7,6 @@ const inpRabatt = document.querySelector("#inpRabatt");
 const btnEndre = document.querySelector("#btnEndre");
 
 
-
-
 // Koblingen til databasen 
 const db = firebase.firestore(); 
 const mr = db.collection("moebelregister");
@@ -58,13 +56,6 @@ btnEndre.onclick = () => {
 };
 
 
-// Oppgave 2
-/*
-mr.doc("hpsTd7Fw7oxFOgm8MZU9").update({
-    pris: 3999
-});
-*/
-
 // Oppgave 1 - Hentet møbler fra Jysk
 /*
 leggtilMoebel("Vandborg", "Skrivebord", 599, 0);
@@ -78,3 +69,11 @@ leggtilMoebel("Egedal", "Sofa", 4499, 0);
 leggtilMoebel("Virum", "Konsollbord", 899, 450);
 leggtilMoebel("Branderup", "Spisegruppe", 4999, 0);
 */
+
+// Oppgave 2
+/*
+mr.doc("hpsTd7Fw7oxFOgm8MZU9").update({
+    pris: 3999
+});
+*/
+

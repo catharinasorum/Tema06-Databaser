@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    background: rgb(160, 192, 192);
+    font-family: sans-serif;
+}
+
+h2,
+p {
+    margin-bottom: 0.5rem;
+}
+
+h1, h2 {
+    font-weight: 300;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+
+main article {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 2px;
+}
+
+main article img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.info {
+    padding: 1rem;
+}
