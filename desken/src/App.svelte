@@ -1,4 +1,5 @@
 <script>
+	import {db, storage} from "./firebase.js"
 	
 	let files = []
 	$: file = files[0] // en dynamisk variabel
